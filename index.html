@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+Ella learns how to read  </title>
+
+<link href="main/style.css" rel="stylesheet"  type="text/css" />
+<script async src="main/scripts.js" defer></script>	
+</head>
+
+<body>
+
+<div class="sidenav">
+	<h4> Hard Mode</h4>
+	<label class="switch">
+	  <input type="checkbox">
+	  <span class="slider round" onclick="hardtoggle()"></span>
+	</label> 
+
+	<div class="nikuds">
+	<h4> Select Nikud:</h4>
+	<ul> 
+	<li>  <input type="checkbox" id="check1" name="pl" value="1"> פתח  </li>
+	<li>  <input type="checkbox" id="check2" name="pl" value="2"> קמץ </li>
+	</ul> 
+	<ul> 
+	<li>  <input type="checkbox" id="check3" name="pl" value="3"> סגול </li>
+	<li>  <input type="checkbox" id="check5" name="pl" value="5"> צירי  </li>
+	</ul> 
+	<ul> 
+	<li>  <input type="checkbox" id="check4" name="pl" value="4"> חיריק </li>
+	</ul> 
+	<ul> 
+	<li>  <input type="checkbox" id="check8" name="pl" value="8"> קובוץ </li>
+	<li>  <input type="checkbox" id="check9" name="pl" value="9"> שורוק </li>
+	</ul> 
+	<ul> 
+	<li>  <input type="checkbox" id="check7" name="pl" value="7"> חולם  </li>
+	</ul> 
+	<ul> 
+	<li>  <input type="checkbox" id="check6" name="pl" value="6"> שווא </li>
+	</ul> 
+	<ul> 
+	<li> <input type="button" onclick='selects()' value="Select All"/>   </li>
+	<li> <input type="button" onclick='deSelect()' value="Deselect All"/>   </li>
+        
+        
+	</div>
+
+</div>
+
+<div class="main">
+	<img class="button drawlet" onclick="drawletter()" src="main/shuffle.png" >
+	<img class="button" id="btn_tip" onclick="showtip()" src="main/help.png" style="visibility:visible;">
+	<img class="button drawnik" onclick="drawnikud()" src="main/sound.png" >
+
+	<br>
+	<img id="myImg" src="letters/0.png" > 	<br>
+	<!-- Add picture for a word that stars with that sound --> 
+	<img id="mytip" src="words/0.png" style="visibility:hidden;"><br>
+	
+</div>
+	
+	
+<!-- Debugging! --> 
+<!-- 
+ <p><input type="button" id="theButton" value="click me!" onclick="findsource()" /></p>
+ <h3><div id="theDiv"></div></h3>
+ --> 
+
+
+</html>
