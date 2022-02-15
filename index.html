@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>
-Ella learns how to read  </title>
+אלה לומדת לקרוא  </title>
 
 <link href="main/style.css" rel="stylesheet"  type="text/css" />
 <script async src="main/scripts.js" defer></script>	
@@ -11,38 +11,38 @@ Ella learns how to read  </title>
 <body>
 
 <div class="sidenav">
-	<h4> Hard Mode</h4>
+	<h4> :מצב קל או קשה</h4>
 	<label class="switch">
 	  <input type="checkbox">
-	  <span class="slider round" onclick="hardtoggle()"></span>
+	  <span class="slider round" onclick="hardtoggle()" checked ></span>
 	</label> 
 
 	<div class="nikuds">
-	<h4> Select Nikud:</h4>
+	<h4> :בחרי סימני ניקוד</h4>
 	<ul> 
-	<li>  <input type="checkbox" id="check1" name="pl" value="1"> פתח  </li>
-	<li>  <input type="checkbox" id="check2" name="pl" value="2"> קמץ </li>
+	<li>  פתח  <input type="checkbox" id="check1" name="pl" value="1"> </li>
+	<li>  קמץ <input type="checkbox" id="check2" name="pl" value="2"> </li>
+	</ul> 
+	<ul>  
+	<li>  סגול <input type="checkbox" id="check3" name="pl" value="3"> </li>
+	<li>  צירי <input type="checkbox" id="check5" name="pl" value="5">  </li>
+	</ul> 
+	<ul>  
+	<li>  חיריק<input type="checkbox" id="check4" name="pl" value="4">  </li>
+	</ul> 
+	<ul>  
+	<li>  קובוץ<input type="checkbox" id="check8" name="pl" value="8">  </li>
+	<li>  שורוק<input type="checkbox" id="check9" name="pl" value="9" disabled>  </li>
 	</ul> 
 	<ul> 
-	<li>  <input type="checkbox" id="check3" name="pl" value="3"> סגול </li>
-	<li>  <input type="checkbox" id="check5" name="pl" value="5"> צירי  </li>
+	<li>  חולם <input type="checkbox" id="check7" name="pl" value="7"> </li>
 	</ul> 
 	<ul> 
-	<li>  <input type="checkbox" id="check4" name="pl" value="4"> חיריק </li>
+	<li> שווא <input type="checkbox" id="check6" name="pl" value="6">  </li>
 	</ul> 
 	<ul> 
-	<li>  <input type="checkbox" id="check8" name="pl" value="8"> קובוץ </li>
-	<li>  <input type="checkbox" id="check9" name="pl" value="9"> שורוק </li>
-	</ul> 
-	<ul> 
-	<li>  <input type="checkbox" id="check7" name="pl" value="7"> חולם  </li>
-	</ul> 
-	<ul> 
-	<li>  <input type="checkbox" id="check6" name="pl" value="6"> שווא </li>
-	</ul> 
-	<ul> 
-	<li> <input type="button" onclick='selects()' value="Select All"/>   </li>
-	<li> <input type="button" onclick='deSelect()' value="Deselect All"/>   </li>
+	<li> <input type="button" onclick='selects()' value="כל סימני הניקוד"/>   </li>
+	<li> <input type="button" onclick='deSelect()' value="אף סימן ניקוד"/>   </li>
         
         
 	</div>
