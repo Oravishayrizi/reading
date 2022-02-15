@@ -8,8 +8,8 @@
 		  x.style.visibility = "visible";
 		  y.disabled = true
 		  y.checked = false
-
 		}
+		document.getElementById("mytip").style.visibility = "hidden";
 		}
 		
 		
